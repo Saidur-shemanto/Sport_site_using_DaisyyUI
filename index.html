@@ -72,45 +72,60 @@
                 </div>
             </div>
         </nav>
-        <div class="carousel w-full lg:h-[550px]">
-            <div id="slide1" class="carousel-item relative w-full">
-                <img src="./Images/1.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+        <div class="relative">
+            <div class="carousel w-full lg:h-[550px] mb-4">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="./Images/2.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <img src="./Images/3.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img src="./Images/4.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
+            <div class="bg-black p-8 w-auto lg:w-[566px] rounded-lg lg:absolute lg:right-8 lg:bottom-8">
+                <h3 class="text-2xl text-white mb-4">
+                    Meet All the heroes from the field.
+
+                </h3>
+                <p class="text-base text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, soluta nostrum cumque dolor amet
+                    itaque doloribus iusto placeat totam dicta.
+
+                </p>
             </div>
         </div>
 
     </header>
     <main class="flex flex-col justify-center items-center">
         <section class="text-center w-4/5 lg:w-3/5 mb-12">
+            <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6">Professional Hockeys Club</h3>
             <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas
                 consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
                 tenetur, illum, vero odio omnis unde esse.</p>
+            <hr>
         </section>
         <section class="flex flex-col lg:flex-row gap-8 mb-24 w-full px-9">
             <div class="flex flex-col items-center justify-center text-center ">
@@ -152,11 +167,13 @@
 
         </section>
         <section class="text-center w-4/5 lg:w-3/5 mb-12">
+            <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6">Program Sections</h3>
             <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas
                 consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
                 tenetur, illum, vero odio omnis unde esse.</p>
+            <hr>
         </section>
         <section class="flex flex-col w-full h-auto">
             <div class="flex flex-col lg:flex-row flex-1">
@@ -227,12 +244,14 @@
                 </div>
             </div>
         </section>
-        <section class="text-center w-4/5 lg:w-3/5 mb-12">
-            <h3 class="text-2xl lg:text-4xl font-bold  mb-6">Program Sections</h3>
+        <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
+            <hr>
+            <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Program Sections</h3>
             <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas
                 consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
                 tenetur, illum, vero odio omnis unde esse.</p>
+            <hr>
         </section>
         <section class="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
             <div class="card card-side bg-base-100 shadow-xl flex-col lg:flex-row">
@@ -351,6 +370,84 @@
             </div>
 
 
+        </section>
+        <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
+            <hr>
+            <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Client Questions</h3>
+            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas
+                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
+                tenetur, illum, vero odio omnis unde esse.</p>
+            <hr>
+        </section>
+        <section class="flex flex-col lg:flex-row w-full p-8 shadow-lg gap-10">
+            <div class="lg:w-2/5"><img src="./Images/11.png" alt="" class="w-full"></div>
+            <div class="lg:w-3/5">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in
+                            magna.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
+            <hr>
+            <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Get in touch</h3>
+            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas
+                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
+                tenetur, illum, vero odio omnis unde esse.</p>
+            <hr>
         </section>
     </main>
 
