@@ -17,7 +17,10 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        "hockey-primary": '#FF4240'
+                        "hockey-primary": '#FF4240',
+                        "green-back": 'rgba(188, 237, 109, 0.1)',
+                        "yellow-back": 'rgba(253, 221, 95, 0.1)',
+                        "blue-back": 'rgba(98, 156, 243, 0.1)',
                     }
                 }
             }
@@ -28,8 +31,12 @@
             font-family: "Manrope", sans-serif;
         }
 
-        .card-body {
+        #image_section .card-body {
             justify-content: end !important;
+        }
+
+        #card_and_forms figure {
+            justify-content: left !important;
         }
     </style>
 </head>
@@ -109,8 +116,8 @@
 
                 </h3>
                 <p class="text-base text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, soluta nostrum cumque dolor amet
-                    itaque doloribus iusto placeat totam dicta.
+                    Hockey players are the heartbeat of the beautiful game, capturing the imagination of fans
+                    worldwide with their skill, passion, and dedication.
 
                 </p>
             </div>
@@ -121,10 +128,9 @@
         <section class="text-center w-4/5 lg:w-3/5 mb-12">
             <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6">Professional Hockeys Club</h3>
-            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas
-                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
-                tenetur, illum, vero odio omnis unde esse.</p>
+            <p class="text-sm lg:text-base ">A hockey club is more than just a team; it's a community united by a
+                passion for the sport and a shared commitment to excellence. These clubs serve as the backbone of the
+                hockey world.</p>
             <hr>
         </section>
         <section class="flex flex-col lg:flex-row gap-8 mb-24 w-full px-9">
@@ -135,57 +141,63 @@
                 <h3 class="text-xl font-semibold mb-4">
                     Player Facility
                 </h3>
-                <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing</p>
+                <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                    leadership.</p>
             </div>
             <div class="flex flex-col items-center justify-center text-center ">
-                <div class="radial-progress text-green-500 mb-6" style="--value:95;" role="progressbar">95%</div>
+                <div class="radial-progress text-green-500 mb-6" style="--value:95;" role="progressbar"><span
+                        class="text-black">95%</span></div>
                 <h3 class="text-xl font-semibold mb-4">
-                    Player Facility
+                    Experienced Coach
 
                 </h3>
-                <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing</p>
+                <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                    leadership.</p>
             </div>
             <div class="flex flex-col items-center justify-center text-center ">
                 <div class="radial-progress text-primary text-yellow-500 mb-6" style="--value:90;" role="progressbar">
-                    90%
+                    <span class="text-black">90%</span>
                 </div>
                 <h3 class="text-xl font-semibold mb-4">
-                    Player Facility
+                    Senior Player
 
                 </h3>
-                <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing</p>
+                <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                    leadership.</p>
             </div>
             <div class="flex flex-col items-center justify-center text-center ">
-                <div class="radial-progress text-primary text-blue-500 mb-6" style="--value:80;" role="progressbar">80%
+                <div class="radial-progress text-primary text-blue-500 mb-6" style="--value:80;" role="progressbar">
+                    <span class="text-black">80%</span>
                 </div>
                 <h3 class="text-xl font-semibold mb-4">
-                    Player Facility
+                    Trainning Ground
 
                 </h3>
-                <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing</p>
+                <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                    leadership.</p>
             </div>
 
         </section>
         <section class="text-center w-4/5 lg:w-3/5 mb-12">
             <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6">Program Sections</h3>
-            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas
-                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
-                tenetur, illum, vero odio omnis unde esse.</p>
+            <p class="text-sm lg:text-base ">A hockey club is more than just a team; it's a community united by a
+                passion for the sport and a shared commitment to excellence. These clubs serve as the backbone of the
+                hockey world.</p>
             <hr>
         </section>
-        <section class="flex flex-col w-full h-auto">
+        <section class="flex flex-col w-full h-auto" id="image_section">
             <div class="flex flex-col lg:flex-row flex-1">
                 <div class="card w-auto h-auto lg:h-[450px] bg-base-100  image-full p-6">
                     <figure><img src="./Images/2.png" alt="Shoes" class="w-full" />
                     </figure>
                     <div class="card-body flex flex-col">
                         <h1 class="mb-3 lg:mb-5 text-xl lg:text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5 w-11/12 lg:w-4/5 grow-0">Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                            assumenda
-                            excepturi
-                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p class="mb-5 w-11/12 lg:w-4/5 grow-0">A hockey club is more than just a team; it's a community
+                            united by a
+                            passion for the sport and a shared commitment to excellence. These clubs serve as the
+                            backbone of the
+                            hockey world.</p>
                         <button class="btn bg-hockey-primary text-white h-12 w-[180px] pd-[22px] mt-0 border-0">Get
                             Started</button>
                     </div>
@@ -207,10 +219,11 @@
                     </figure>
                     <div class="card-body flex flex-col">
                         <h1 class="mb-3 lg:mb-5 text-xl lg:text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5 w-11/12 lg:w-4/5 grow-0">Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                            assumenda
-                            excepturi
-                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p class="mb-5 w-11/12 lg:w-4/5 grow-0">A hockey club is more than just a team; it's a community
+                            united by a
+                            passion for the sport and a shared commitment to excellence. These clubs serve as the
+                            backbone of the
+                            hockey world.</p>
                         <button class="btn bg-hockey-primary text-white h-12 w-[180px] pd-[22px] mt-0 border-0">Get
                             Started</button>
                     </div>
@@ -234,10 +247,11 @@
                     </figure>
                     <div class="card-body flex flex-col">
                         <h1 class="mb-3 lg:mb-5 text-xl lg:text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5 w-11/12 lg:w-2/5 grow-0">Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                            assumenda
-                            excepturi
-                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p class="mb-5 w-11/12 lg:w-2/5 grow-0">A hockey club is more than just a team; it's a community
+                            united by a
+                            passion for the sport and a shared commitment to excellence. These clubs serve as the
+                            backbone of the
+                            hockey world.</p>
                         <button class="btn bg-hockey-primary text-white h-12 w-[180px] pd-[22px] mt-0 border-0">Get
                             Started</button>
                     </div>
@@ -247,10 +261,9 @@
         <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
             <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Program Sections</h3>
-            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas
-                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
-                tenetur, illum, vero odio omnis unde esse.</p>
+            <p class="text-sm lg:text-base ">A hockey club is more than just a team; it's a community united by a
+                passion for the sport and a shared commitment to excellence. These clubs serve as the backbone of the
+                hockey world.</p>
             <hr>
         </section>
         <section class="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
@@ -264,7 +277,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -283,7 +297,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -302,7 +317,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -321,7 +337,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -340,7 +357,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -359,7 +377,8 @@
                         <div class="flex gap-2"><img src="./Images/heart-regular.svg" alt="" class="w-5">200</div>
                     </div>
                     <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                    <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, molestiae!</p>
+                    <p class="text-base">Player-coach trains senior players, fostering skill development and strategic
+                        leadership.</p>
                     <div class="flex gap-5">
                         <div class="text-red-500 font-extrabold">Price - $22.00</div>
                         <div class="flex"><img src="./Images/cart-shopping-solid.svg" alt="" class="h-6 w-6">
@@ -374,10 +393,9 @@
         <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
             <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Client Questions</h3>
-            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas
-                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
-                tenetur, illum, vero odio omnis unde esse.</p>
+            <p class="text-sm lg:text-base ">A hockey club is more than just a team; it's a community united by a
+                passion for the sport and a shared commitment to excellence. These clubs serve as the backbone of the
+                hockey world.</p>
             <hr>
         </section>
         <section class="flex flex-col lg:flex-row w-full p-8 shadow-lg gap-10">
@@ -385,57 +403,56 @@
             <div class="lg:w-3/5">
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Our Equipment
                     </div>
                     <div class="collapse-content">
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in
-                            magna.</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Hockey Trainning
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Private Lessons
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Ski Touring
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Booking
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-bold">
+                        Pricing
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Player-coach trains senior players, fostering skill development and strategic leadership.</p>
                     </div>
                 </div>
             </div>
@@ -443,13 +460,136 @@
         <section class="text-center w-4/5 lg:w-3/5 mb-12 mt-20">
             <hr>
             <h3 class="text-2xl lg:text-4xl font-bold  mb-6 mt-6">Get in touch</h3>
-            <p class="text-sm lg:text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas
-                consectetur accusamus excepturi aliquid illo a omnis est. Quas magnam doloremque velit quae deleniti,
-                tenetur, illum, vero odio omnis unde esse.</p>
+            <p class="text-sm lg:text-base ">A hockey club is more than just a team; it's a community united by a
+                passion for the sport and a shared commitment to excellence. These clubs serve as the backbone of the
+                hockey world.</p>
             <hr>
         </section>
+        <section id="card_and_forms" class="lg:flex w-full gap-6">
+            <div class="lg:w-[474px] p-12 border rounded-lg flex flex-col items-center gap-6">
+                <div class="card w-96 bg-green-back ">
+                    <div class="card-body">
+                        <figure><img src="./Images/Group 1171275317.png" alt=""></figure>
+                        <h2 class="card-title text-primary-content">Phone Number</h2>
+                        <p class="font-bold">019420691989</p>
+
+                    </div>
+                </div>
+                <div class="card w-96 bg-yellow-back">
+                    <div class="card-body">
+                        <figure><img src="./Images/Group 1171275318.png" alt=""></figure>
+                        <h2 class="card-title text-primary-content">Email</h2>
+                        <p class="font-bold">hockeys@gamefun.com</p>
+
+                    </div>
+                </div>
+                <div class="card w-96 bg-blue-back ">
+                    <div class="card-body">
+                        <figure><img src="./Images/Group 1171275321.png" alt=""></figure>
+                        <h2 class="card-title text-primary-content">Location</h2>
+                        <p class="font-bold">Sodorghat, Dhaka, Bangladesh</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-full">
+                <div class="grid lg:grid-cols-2 w-full gap-6">
+                    <label class="form-control w-full max-w-full">
+                        <div class="label">
+                            <span class="label-text font-bold">Your Name</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-full" />
+                    </label>
+                    <label class="form-control w-full max-w-full">
+                        <div class="label">
+                            <span class="label-text font-bold">Your Email</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-full" />
+                    </label>
+                    <label class="form-control w-full max-w-full">
+                        <div class="label">
+                            <span class="label-text font-bold">Subject</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-full" />
+                    </label>
+                    <label class="form-control w-full max-w-full">
+                        <div class="label">
+                            <span class="label-text font-bold">Phone Number</span>
+                        </div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-full" />
+                    </label>
+                </div>
+                <div><label class="form-control w-full max-w-full h-[370px] mb-8">
+                        <div class="label">
+                            <span class="label-text font-bold">Message</span>
+                        </div>
+                        <textarea placeholder="Bio"
+                            class="textarea textarea-bordered textarea-lg w-full max-w-full h-[370px]"></textarea>
+                    </label>
+
+
+
+                </div>
+                <div>
+                    <button class="btn w-full btn-error text-white">
+                        Send Messages
+
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="px-8 py-20">
+            <div class="flex flex-col justify-center items-center gap-6">
+                <h3 class="text-2xl font-extrabold">Social Media</h3>
+                <div class="flex gap-8">
+                    <a href=""><img src="./Images/twitter.svg" alt="" width="20px"></a>
+                    <a href=""><img src="./Images/facebook.svg" alt="" width="20px"></a>
+                    <a href=""><img src="./Images/instagram.svg" alt="" width="20px"></a>
+                    <a href=""><img src="./Images/github.svg" alt="" width="20px"></a>
+                </div>
+
+            </div>
+        </section>
+
     </main>
+    <footer class="grid grid-cols-12 p-12 gap-6 " data-theme="dark">
+        <aside
+            class="lg:col-span-6 col-span-12 flex flex-col gap-4 items-center text-center lg:items-start lg:text-left">
+            <h1 class="text-3xl font-extrabold">ACME Industries Ltd.</h1>
+            <p class="text-base ">Please don't hesitate to reach out to our customer support
+                team via email or
+                phone for any inquiries or assistance.</p>
+            <div>
+                <div class="flex gap-2"><img src="./Images/envelope-regular.svg" alt="" width="20px">
+                    <p>hockeys@support.com</p>
+                </div>
+                <div class="flex gap-2">
+                    <img src="./Images/phone-solid.svg" alt="" width="20px">
+                    <p>001864201989</p>
+                </div>
+            </div>
+        </aside>
+        <nav class="lg:col-span-2 col-span-6 flex flex-col items-center text-center lg:items-start lg:text-left">
+            <h6 class="font-bold mb-7">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav class="lg:col-span-2 col-span-6 flex flex-col items-center text-center lg:items-start lg:text-left">
+            <h6 class="font-bold mb-7">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav class="lg:col-span-2 col-span-12 flex flex-col items-center text-center lg:items-start lg:text-left">
+            <h6 class="font-bold mb-7">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
 
 </body>
 
